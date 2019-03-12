@@ -15,3 +15,4 @@ if [ $count -gt $num ]
 then
         ls -lt  $backdir/*.tar.gz | tail -1 | awk '{print $9}' | xargs rm -f
 fi
+echo"haha"
